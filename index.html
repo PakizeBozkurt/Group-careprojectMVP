@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
     <title>Volunteer Web Site</title>
     <link 
     rel="stylesheet" 
@@ -53,6 +54,29 @@
     </article>
 </aside>
 
+<form action="./" method="post">
+    <div class="box">
+      <h1>Contact Form</h1>
+      <label>
+         <span>Full name *</span>
+         <input type="text" class="input_text" name="name" id="name"/>
+      </label>
+       <label>
+         <span>Email *</span>
+         <input type="text" class="input_text" name="email" id="email"/>
+      </label>
+       <label>
+          <span>Subject *</span>
+          <input type="text" class="input_text" name="subject" id="subject"/>
+      </label>
+      
+      <label>
+          <span>Message *</span>
+          <textarea class="message" name="feedback" id="feedback"></textarea>
+       <input type="submit" class="button" value="Submit Form" />
+      </label>
+  </div>
+</form>
 <footer>
     <ul>
         <li><a href="#">Privacy</a></li>
