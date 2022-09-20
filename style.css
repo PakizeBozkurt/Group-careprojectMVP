@@ -114,13 +114,15 @@ nav > ul {
 }
 div.box{
 	margin:0 auto;
-	width:500px;
+	width:750px;
+  height:500px;
 	background: #222;
 	position:relative;
-	top:150px;
+	top:160px;
   bottom: -100px;
-  left: -450px;
+  left: -1000px;
 	border: 2px solid #262626;
+  border-left: 10px solid #CC0000;
 	}
 	
 	div.box h1{ 
@@ -152,7 +154,7 @@ div.box{
 	
 	div.box .input_text{
 	padding:10px 10px;
-	width:200px;
+	width:300px;
 	background:#262626;
 	border-bottom: 1px double #171717;
 	border-top: 1px double #171717;
@@ -162,7 +164,7 @@ div.box{
 	
 	div.box .message{
 	padding:7px 7px;
-	width:350px;
+	width:500px;
 	background:#262626;
 	border-bottom: 1px double #171717;
 	border-top: 1px double #171717;
@@ -174,13 +176,13 @@ div.box{
 	
 	div.box .button
 	{
-	margin:0 0 10px 0;
+	margin:0 0 50px 0;
 	padding:4px 7px;
 	background:#CC0000;
 	border:0px;
 	position: relative;
-	top:10px;
-	left:382px;
+	top:50px;
+	left:-50px;
 	width:100px;
 	border-bottom: 1px double #660000;
 	border-top: 1px double #660000;
@@ -210,7 +212,7 @@ div.box{
     max-width: 2900px;
     background: #2b2d32;
     font-family: "Rokkitt", serif;
-    border-top: 10px solid silver;
+    border-top: 10px solid #CC0000;
  }
   .c-footer__section {
     padding: 2em;
