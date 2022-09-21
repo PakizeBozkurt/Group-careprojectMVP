@@ -118,11 +118,17 @@ div.box{
   height:500px;
 	background: #222;
 	position:relative;
-	top:160px;
+	top:166px;
   bottom: -100px;
   left: -1000px;
 	border: 2px solid #262626;
   border-left: 10px solid #CC0000;
+  border-right: 10px solid #CC0000;
+  border-bottom: 10px solid #CC0000;
+  border-top: 10px solid #CC0000;
+
+
+
 	}
 	
 	div.box h1{ 
@@ -247,12 +253,6 @@ div.box{
  }
   .c-social__item:hover {
     color: #f9f9f9;
- }
-  .c-social__item:hover.tw:before {
-    background-image: url("http://www.sicontis.com/codepen/css-garden/lrigon7vzqmphx1amdni.svg");
- }
-  .c-social__item:hover.fb:before {
-    background-image: url("http://www.sicontis.com/codepen/css-garden/f5gwg5zygwtofgyz2pic.svg");
  }
   .c-social .fb:before, .c-social .tw:before {
     display: block;
