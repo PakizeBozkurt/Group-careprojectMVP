@@ -20,7 +20,7 @@ li {
 }
 
 h2 {
-    font-size: 1.75em;
+    font-size: 1.5em;
     padding: auto;
     margin: 7px;
 }
@@ -172,7 +172,7 @@ p {
 
         .hero h1 {
           margin-bottom: 1rem;
-          font-size: 3rem;
+          font-size: 1.5rem;
           color: rgb(94, 7, 7);
           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
         }
