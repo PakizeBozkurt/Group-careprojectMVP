@@ -186,7 +186,7 @@ p {
     .button_white {
       z-index: -999;
       color: rgb(181, 103, 21);
-      background-color: black;
+      background-color: rgb(221, 136, 136);
       padding: 20px;
       border: red;
       border-radius: 5px;
